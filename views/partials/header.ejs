@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <title> Mongoose Recipes</title>
+</head>
+<body>
+    <nav>
+      <a href="/">Home</a>
+      &nbsp;|&nbsp;
+      <a href="/recipes/new">New Recipe</a>
+      &nbsp;|&nbsp;
+      <a href="/recipes">All Recipes</a>
+        <% if (user) { %>
+          <a href="/logout">LOG OUT</a>
+        <% } else { %>
+          <a href="/auth/google" class="login">LOG IN&nbsp;</a>
+        <% } %>
+      </nav>
+      

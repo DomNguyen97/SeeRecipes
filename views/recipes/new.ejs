@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+
+<h2>Enter a New Recipe</h2>
+<form action="/recipes" method="POST">
+    <label>Recipe Name:
+        <input type="text" name="recipeName">
+      </label><br>
+    <label>Ingredients
+        <input type="text" name="ingredients">
+    </label><br>
+    <label>Difficulty Level
+        <select name="difficult">
+          <option value="Easy">Easy</option>
+          <option value="Medium">Medium</option>
+          <option value="Hard">Hard</option>
+          <option value="Very Hard">Very Hard</option>
+        </select>
+      </label><br>
+    <label>Allergies?
+        <input type="checkbox" name="allergies" checked>
+    </label><br>
+    <label>Cooking Instructions
+        <input type="text" name="cookingInstructions">
+    </label><br>  
+    <button type="submit">Add Recipe</button>
+</form>
+
+
+<%- include('../partials/footer') %>
