@@ -3,16 +3,19 @@ var router = express.Router();
 var recipesCtrl = require('../controllers/recipes');
  // All actual paths start with "/skills"
 
-// GET /skills
+// GET /recipes
 router.get('/', recipesCtrl.index);
-// GET /skills/new 
+// GET /recipes/new 
 router.get('/new', recipesCtrl.new);
-// GET /skills/:id
+// GET /recipes/:id
 router.get('/:id', recipesCtrl.show);
-// POST /skills
+// POST /recipes
 router.post('/', recipesCtrl.create);  
 // DELETE
 router.delete('/:id', recipesCtrl.delete);
-
+//  GET /recipes/:id/edit
+router.get('/:id/edit', recipesCtrl.edit);
+//  PUT /recipes/:id
+router.put('/:id', recipesCtrl.update);
 
 module.exports = router;

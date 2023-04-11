@@ -5,7 +5,9 @@ module.exports = {
     show,
     new: newRecipe,
     delete: deleteRecipe,
-    create
+    create,
+    edit,
+    update
   };
   
   
@@ -42,23 +44,19 @@ module.exports = {
     }
   }
   
+  async function edit(req, res){
+    const recipe = await Recipe.findById(req.params.id);
+    res.render('recipes/edit' , {title: "Edit Recipe", recipe});
+}
 
 
-  // async function create(req, res) {
-  //   req.body.user = req.user._id;
-  //   req.body.userName = req.user.name;
-  //   req.body.userAvatar = req.user.avatar;
-  
-  
-  // for (let key in req.body){
-  //   if (req.body[key] ==='') delete req.body[key];
-  // }
-  // try {
-  //     const recipe = await Recipe.create(req.body)
-  //     res.redirected(`/recipes/${recipe._id}` , {title: 'Recipe' , errorMsg:''});
-  // } catch (err) {
-  //     console.log(err);
-  //     res.render('recipes/new', { title: 'Recipe Detail' , errorMsg: err.messge});
-  // }
-  // }
-  
+
+  async function update(req, res) {
+  try {
+    const recipe = await Recipe.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    res.redirect(`/recipes/${recipe.id}`);
+  } catch (err) {
+    console.log(err);
+    res.render('error', { errorMsg: err.message})
+  }
+}

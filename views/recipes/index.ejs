@@ -25,6 +25,7 @@
                 <td><%= r.allergies? 'Yes' : 'Nope'%></td>
                 <td><%= r.cookingInstructions%></td>
                 <td><a href="/recipes/<%= r._id %>">DETAILS</a></td>
+                <td><a href="/recipes/<%= r._id %>/edit">Edit recipe</a></td>
                 </tr>
                 <% }); %>
         </tbody>
