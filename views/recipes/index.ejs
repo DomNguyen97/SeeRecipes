@@ -4,6 +4,7 @@
     <table>
         <thead>
           <tr>
+            <th>remove</th>
             <th>Name</th>
             <th>Ingredients</th>
             <th>Difficulty</th>
@@ -12,13 +13,18 @@
           </tr>
         </thead>
         <tbody>
-            <% recipes.forEach(function(r) { %>
+            <% recipe.forEach(function(r) { %>
                 <tr>
+                  <td><form action="/recipes/<%= r.id %>?_method=DELETE"
+                    class="delete-form" method="POST">
+                    <button type="submit">X</button>
+                  </form></td>
                 <td><%= r.recipeName%></td>
                 <td><%= r.ingredients%></td>
                 <td><%= r.difficult%></td>
                 <td><%= r.allergies? 'Yes' : 'Nope'%></td>
                 <td><%= r.cookingInstructions%></td>
+                <td><a href="/recipes/<%= r._id %>">DETAILS</a></td>
                 </tr>
                 <% }); %>
         </tbody>

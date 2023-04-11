@@ -7,12 +7,12 @@ var recipesCtrl = require('../controllers/recipes');
 router.get('/', recipesCtrl.index);
 // GET /skills/new 
 router.get('/new', recipesCtrl.new);
+// GET /skills/:id
+router.get('/:id', recipesCtrl.show);
 // POST /skills
 router.post('/', recipesCtrl.create);  
-// GET /skills/:id
-// router.get('/:id', recipesCtrl.show);
 // DELETE
-// router.delete('/:id', recipesCtrl.delete);
+router.delete('/:id', recipesCtrl.delete);
 
 
 module.exports = router;
