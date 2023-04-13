@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+
+<div id="edit-container">
+  <form action="/recipes/<%= recipe._id %>?_method=PUT" method="POST">
+        <label>Recipe Name:
+            <input type="text" name="recipeName" value="<%= recipe.recipeName%>">
+          </label><br>
+        <label>Creator
+            <input type="text" name="creator" value="<%= recipe.creator%>">
+        </label><br>
+        <label>Difficulty Level
+            <select name="difficult" value="<%= recipe.difficult%>">
+              <option value="Easy">Easy</option>
+              <option value="Medium">Medium</option>
+              <option value="Hard">Hard</option>
+              <option value="Very Hard">Very Hard</option>
+            </select>
+          </label><br>
+        <label>Allergies?
+            <input type="checkbox" name="allergies" checked value="<%= recipe.allergies%>">
+        </label><br>
+        <label>Cooking Instructions
+            <input type="text" name="cookingInstructions"value="<%= recipe.cookingInstructions%>">
+        </label><br>  
+        <button type="submit">Add Recipe</button>
+
+  </form>
+</div>
+<%- include('../partials/footer') %>

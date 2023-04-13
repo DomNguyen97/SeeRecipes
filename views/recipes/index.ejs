@@ -6,7 +6,7 @@
           <tr>
             <th>remove</th>
             <th>Name</th>
-            <th>Ingredients</th>
+            <th>Created by</th>
             <th>Difficulty</th>
             <th>Allergies</th>
             <th>Cooking Instructions</th>
@@ -20,7 +20,7 @@
                     <button type="submit">X</button>
                   </form></td>
                 <td><%= r.recipeName%></td>
-                <td><%= r.ingredients%></td>
+                <td><%= r.creator%></td>
                 <td><%= r.difficult%></td>
                 <td><%= r.allergies ? 'Yes' : 'Nope' %></td>
                 <td><%= r.cookingInstructions%></td>

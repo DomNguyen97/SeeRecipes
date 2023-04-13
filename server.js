@@ -15,6 +15,7 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const recipesRouter = require('./routes/recipes');
 const commentsRouter = require('./routes/comments');
+const ingredientsRouter = require('./routes/ingredients');
 
 
 var app = express();
@@ -49,6 +50,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/recipes', recipesRouter);
 app.use('/', commentsRouter);
+app.use('/', ingredientsRouter);
 
 
 
