@@ -5,7 +5,7 @@
 </div>
 <h3><a href="https://github.com/SeksiBoiDom/SeeRecipes">Check out SeeRecipes!!!</h3>
 <h1>:speech_balloon:Description</h1>
-<p>Spaceman is a single player game where the player is given a limited number of guesses to a specific word with the only clues they have  and blank spaces which represent the number of letters that specific word contains and a hint given by the game. Everytime the player makes a incorrect guess, a park of the spaceman is added to the board. If the player guesses incorrectly too many times, the spaceman will be complete and the player loses. </p>
+<p>SeeRecipes is a MEN stack based web application where user's are able to post recipes, update thier recipes over time, and comment on other users recipes. </p>
 
 ##:camera_flash: Screenshot
 <img src="">
