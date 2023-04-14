@@ -8,7 +8,7 @@
 <p>SeeRecipes is a MEN stack based web application where user's are able to post recipes, update thier recipes over time, and comment on other users recipes. </p>
 
 ##:camera_flash: Screenshot
-<img width="1435" alt="Screen Shot 2023-04-14 at 5 24 15 AM" src="https://user-images.githubusercontent.com/127148768/232005825-ddea7fcb-87e5-4f4c-b42d-618a1e37f380.png">
+| <h3>Home Page</h3> |<img width="1435" alt="Screen Shot 2023-04-14 at 5 24 15 AM" src="https://user-images.githubusercontent.com/127148768/232005825-ddea7fcb-87e5-4f4c-b42d-618a1e37f380.png">
 
 <img width="1440" alt="Screen Shot 2023-04-14 at 5 24 31 AM" src="https://user-images.githubusercontent.com/127148768/232006000-80e2c832-3034-4196-a325-adae2349af06.png">
 
