@@ -14,7 +14,7 @@ router.get('/:id', recipesCtrl.show);
 // POST /recipes
 router.post('/', ensureLoggedIn, recipesCtrl.create);  
 // DELETE
-router.delete('/:id', recipesCtrl.delete);
+router.delete('/:id',ensureLoggedIn, recipesCtrl.delete);
 //  GET /recipes/:id/edit
 router.get('/:id/edit', ensureLoggedIn, recipesCtrl.edit);
 //  PUT /recipes/:id
