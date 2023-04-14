@@ -14,7 +14,9 @@
 
 ##:pen: Coding languages used and technology used
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
-![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
+![Mongoose ODM](https://img.shields.io/badge/-Mongoose_ODM-05122A?style=flat&logo=mongodb)
+![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=mongodb)
+![Express](https://img.shields.io/badge/-Express-05122A?style=flat&logo=express)  
 ![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
 ![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)
 ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
