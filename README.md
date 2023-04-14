@@ -8,17 +8,17 @@
 <p>SeeRecipes is a MEN stack based web application where user's are able to post recipes, update thier recipes over time, and comment on other users recipes. </p>
 
 ##:camera_flash: Screenshot
-<img src="<img width="1435" alt="Screen Shot 2023-04-14 at 5 24 15 AM" src="https://user-images.githubusercontent.com/127148768/232005825-ddea7fcb-87e5-4f4c-b42d-618a1e37f380.png">
+<img width="1435" alt="Screen Shot 2023-04-14 at 5 24 15 AM" src="https://user-images.githubusercontent.com/127148768/232005825-ddea7fcb-87e5-4f4c-b42d-618a1e37f380.png">
 ">
-<img src="<img width="1440" alt="Screen Shot 2023-04-14 at 5 24 31 AM" src="https://user-images.githubusercontent.com/127148768/232006000-80e2c832-3034-4196-a325-adae2349af06.png">
+<img width="1440" alt="Screen Shot 2023-04-14 at 5 24 31 AM" src="https://user-images.githubusercontent.com/127148768/232006000-80e2c832-3034-4196-a325-adae2349af06.png">
 ">
-<img src="<img width="1440" alt="Screen Shot 2023-04-14 at 5 24 57 AM" src="https://user-images.githubusercontent.com/127148768/232006140-b89ec1f6-2b9e-441e-8347-14c841d013fa.png">
+<img width="1440" alt="Screen Shot 2023-04-14 at 5 24 57 AM" src="https://user-images.githubusercontent.com/127148768/232006140-b89ec1f6-2b9e-441e-8347-14c841d013fa.png">
 ">
-<img src="<img width="1440" alt="Screen Shot 2023-04-14 at 5 25 03 AM" src="https://user-images.githubusercontent.com/127148768/232006183-eea4bc90-f9e9-451b-9287-9b01b9be6403.png">
+<img width="1440" alt="Screen Shot 2023-04-14 at 5 25 03 AM" src="https://user-images.githubusercontent.com/127148768/232006183-eea4bc90-f9e9-451b-9287-9b01b9be6403.png">
 ">
-<img src="<img width="1440" alt="Screen Shot 2023-04-14 at 5 25 08 AM" src="https://user-images.githubusercontent.com/127148768/232006218-aa312ad9-e3c3-4c36-ae54-6ff383410236.png">
+<img width="1440" alt="Screen Shot 2023-04-14 at 5 25 08 AM" src="https://user-images.githubusercontent.com/127148768/232006218-aa312ad9-e3c3-4c36-ae54-6ff383410236.png">
 ">
-<img src="<img width="1440" alt="Screen Shot 2023-04-14 at 5 25 19 AM" src="https://user-images.githubusercontent.com/127148768/232006335-57d6addc-85b6-4b99-a9dc-35e50fe92992.png">
+<img width="1440" alt="Screen Shot 2023-04-14 at 5 25 19 AM" src="https://user-images.githubusercontent.com/127148768/232006335-57d6addc-85b6-4b99-a9dc-35e50fe92992.png">
 ">  
 
 
