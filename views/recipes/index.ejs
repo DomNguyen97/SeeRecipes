@@ -4,12 +4,11 @@
     <table>
         <thead>
           <tr>
-            <th>remove</th>
+            <th> </th>
             <th>Name</th>
             <th>Created by</th>
             <th>Difficulty</th>
             <th>Allergies</th>
-            <th>Cooking Instructions</th>
           </tr>
         </thead>
         <tbody>
@@ -23,7 +22,6 @@
                 <td><%= r.creator%></td>
                 <td><%= r.difficult%></td>
                 <td><%= r.allergies ? 'Yes' : 'Nope' %></td>
-                <td><%= r.cookingInstructions%></td>
                 <td><a href="/recipes/<%= r._id %>">DETAILS</a></td>
                 <td><a href="/recipes/<%= r._id %>/edit">Edit recipe</a></td>
                 </tr>
