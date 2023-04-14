@@ -12,9 +12,9 @@ async function deleteComment(req, res) {
   if (!recipe) return res.redirect('/recipes');
   // Remove the review using the remove method available on Mongoose arrays
   recipe.comments.remove(req.params.id);
-  // Save the updated movie doc
+  // Save the updated  doc
   await recipe.save();
-  // Redirect back to the movie's show view
+  // Redirect back to the recipe's show view
   res.redirect(`/recipes/${recipe._id}`);
 }
 
@@ -27,7 +27,7 @@ async function create(req, res) {
   // We can push (or unshift) subdocs into Mongoose arrays
   recipe.comments.push(req.body);
   try {
-    // Save any changes made to the movie doc
+    // Save any changes made to the recipe doc
     await recipe.save();
   } catch (err) {
     console.log(err);

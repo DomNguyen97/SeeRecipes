@@ -9,14 +9,14 @@ module.exports = {
       
   async function addToList(req, res) {
     const recipe = await Recipe.findById(req.params.id);
-      // The cast array simply holds the performer's ObjectId
+      // The cast array simply holds the ingredient's ObjectId
       recipe.list.push(req.body.ingredientId);
       await recipe.save();
         res.redirect(`/recipes/${recipe._id}`);
     }
   
   async function newIngredient(req, res) {
-    //Sort performers by their name
+    //Sort ingredients by their name
     const ingredients = await Ingredient.find({}).sort('name');
     res.render('ingredients/new', { title: 'Add Ingredient', ingredients });
   }

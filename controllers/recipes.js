@@ -19,12 +19,12 @@ module.exports = {
   }
   
   async function show(req, res) {
-    // Populate the cast array with performer docs instead of ObjectIds
+    // Populate the list array with performer docs instead of ObjectIds
     const recipe = await Recipe.findById(req.params.id).populate('list');
     // Mongoose query builder approach to retrieve performers not the movie:
-      // Performer.find({}).where('_id').nin(movie.cast)
+      // Performer.find({}).where('_id').nin(movie.list)
     // The native MongoDB approach uses a query object to find 
-    // performer docs whose _ids are not in the movie.cast array like this:
+    // performer docs whose _ids are not in the movie.list array like this:
     const ingredients = await Ingredient.find({ _id: { $nin: recipe.list } }).sort('name');
     res.render('recipes/show', { title: 'Recipe Detail', recipe, ingredients });
   }
